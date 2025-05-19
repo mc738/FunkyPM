@@ -6,7 +6,6 @@ open FunkyPM.V1.Store.Common.Domain.ItemGroups
 open FunkyPM.V1.Store.Common.Domain.Items
 open FunkyPM.V1.Store.Common.Domain.Projects
 
-
 type IFunkyPMStore =
 
     abstract member AddProject: NewProject: NewProject -> AddResult
