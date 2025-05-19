@@ -30,6 +30,7 @@
         <Compile Include="V1\Store\SQLite\Impl.fs" />
         <Compile Include="V1\Operations\Sync.fs" />
         <Folder Include="V1\Plugins\" />
+        <Compile Include="V1\Configuration.fs" />
     </ItemGroup>
 
     <ItemGroup>
