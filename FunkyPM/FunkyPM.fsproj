@@ -13,8 +13,8 @@
         <Compile Include="V1\Store\Common\Domain\Projects.fs" />
         <Compile Include="V1\Store\Common\Domain\ItemGroupVersionStatusTypes.fs" />
         <Compile Include="V1\Store\Common\Domain\ItemVersionLinks.fs" />
-        <Compile Include="V1\Store\Events.fs" />
-        <Compile Include="V1\Store\IFunkyPMStore.fs" />
+        <Compile Include="V1\Store\Common\Events.fs" />
+        <Compile Include="V1\Store\Common\IFunkyPMStore.fs" />
         <Compile Include="V1\Store\SQLite\Persistence.fs" />
         <Compile Include="V1\Store\SQLite\Extensions.fs" />
         <Compile Include="V1\Store\SQLite\ItemVersionLinks.fs" />
