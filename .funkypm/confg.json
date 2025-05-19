@@ -1,2 +1,6 @@
 ﻿{
+  "backingStore": {
+    "type": "sqlite",
+    "storePath": ""
+  }
 }
