@@ -13,4 +13,8 @@ module Configuration =
             | _ -> Provided value
 
 
-    type FunkyPMConfiguration = { StorePath: string }
+    type BackingStore = SQLite of SQLiteBackingStoreConfiguration
+
+    and SQLiteBackingStoreConfiguration = { StorePath: string }
+
+    type FunkyPMConfiguration = { BackingStore: BackingStore }
