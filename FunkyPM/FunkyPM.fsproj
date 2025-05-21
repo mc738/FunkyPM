@@ -28,6 +28,7 @@
         <Compile Include="V1\Store\SQLite\Projects.fs" />
         <Compile Include="V1\Store\SQLite\ProjectEvents.fs" />
         <Compile Include="V1\Store\SQLite\Impl.fs" />
+        <Compile Include="V1\Operations\Common.fs" />
         <Compile Include="V1\Operations\Sync.fs" />
         <Folder Include="V1\Plugins\" />
         <Compile Include="V1\Configuration.fs" />
