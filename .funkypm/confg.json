@@ -2,5 +2,113 @@
   "backingStore": {
     "type": "sqlite",
     "storePath": ""
-  }
+  },
+  "itemGroups": [
+    {
+      "name": "Backlogs",
+      "paths": [
+        "[root]/[category]"
+      ],
+      "categories": [
+        {
+          "name": "Core",
+          "paths": [ "[root]" ]
+        },
+        {
+          "name": "App",
+          "paths": [ "[root]" ]
+        }
+      ],
+      "statuses": [
+        {
+          "name": "Complete",
+          "paths": [
+            "[root]/[category]/[itemGroup]"
+          ]
+        },
+        {
+          "name": "Next",
+          "paths": [
+            "[root]/[category]/[itemGroup]"
+          ]
+        },
+        {
+          "name": "Future",
+          "paths": [
+            "[root]/[category]/[itemGroup]"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bugs",
+      "paths": [
+        "[root]/[category]"
+      ],
+      "categories": [
+        {
+          "name": "Core",
+          "paths": [ "[root]" ]
+        },
+        {
+          "name": "App",
+          "paths": [ "[root]" ]
+        }
+      ],
+      "statuses": [
+        {
+          "name": "Complete",
+          "paths": [
+            "[root]/[category]/[itemGroup]"
+          ]
+        },
+        {
+          "name": "Next",
+          "paths": [
+            "[root]/[category]/[itemGroup]"
+          ]
+        },
+        {
+          "name": "Future",
+          "paths": [
+            "[root]/[category]/[itemGroup]"
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "structure": [
+    {
+      "name": "App",
+      "type": "category",
+      "children": [
+        {
+          "name": "Backlog",
+          "type": "item-group",
+          "children": [
+            {
+              "name": "Complete",
+              "type": "status"
+            },
+            {
+              "name": "Current",
+              "type": "status"
+            },
+            {
+              "name": "Future",
+              "type": "status"
+            },
+            {
+              "name": "Next",
+              "type": "status"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "operations": [
+    
+  ]
 }
