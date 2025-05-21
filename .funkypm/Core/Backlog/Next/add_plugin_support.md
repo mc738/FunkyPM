@@ -1,5 +1,5 @@
 ﻿<meta name="funkypm:id" content="0ff6bd8629a44f1d8ba713e24b27fdcb">
-<meta name="funkypm:" content="">
+<meta name="funkypm:category" content="next">
 
 # Add plugin support
 
