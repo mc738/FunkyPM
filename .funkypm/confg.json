@@ -3,112 +3,90 @@
     "type": "sqlite",
     "storePath": ""
   },
-  "itemGroups": [
-    {
-      "name": "Backlogs",
-      "paths": [
-        "[root]/[category]"
-      ],
-      "categories": [
-        {
-          "name": "Core",
-          "paths": [ "[root]" ]
-        },
-        {
-          "name": "App",
-          "paths": [ "[root]" ]
-        }
-      ],
-      "statuses": [
-        {
-          "name": "Complete",
-          "paths": [
-            "[root]/[category]/[itemGroup]"
-          ]
-        },
-        {
-          "name": "Next",
-          "paths": [
-            "[root]/[category]/[itemGroup]"
-          ]
-        },
-        {
-          "name": "Future",
-          "paths": [
-            "[root]/[category]/[itemGroup]"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Bugs",
-      "paths": [
-        "[root]/[category]"
-      ],
-      "categories": [
-        {
-          "name": "Core",
-          "paths": [ "[root]" ]
-        },
-        {
-          "name": "App",
-          "paths": [ "[root]" ]
-        }
-      ],
-      "statuses": [
-        {
-          "name": "Complete",
-          "paths": [
-            "[root]/[category]/[itemGroup]"
-          ]
-        },
-        {
-          "name": "Next",
-          "paths": [
-            "[root]/[category]/[itemGroup]"
-          ]
-        },
-        {
-          "name": "Future",
-          "paths": [
-            "[root]/[category]/[itemGroup]"
-          ]
-        }
-      ]
-    }
-  ],
-  
-  "structure": [
-    {
-      "name": "App",
-      "type": "category",
-      "children": [
-        {
-          "name": "Backlog",
-          "type": "item-group",
-          "children": [
-            {
-              "name": "Complete",
-              "type": "status"
-            },
-            {
-              "name": "Current",
-              "type": "status"
-            },
-            {
-              "name": "Future",
-              "type": "status"
-            },
-            {
-              "name": "Next",
-              "type": "status"
+  "structure": {
+    "itemGroups": [
+      {
+        "name": "Backlog",
+        "categories": [
+          {
+            "name": "App",
+            "children": []
+          },
+          {
+            "name": "Core",
+            "children": []
+          }
+        ],
+        "statuses": [
+          {
+            "name": "Complete",
+            "metadata": {
+              "": ""
             }
-          ]
-        }
-      ]
+          },
+          {
+            "name": "Current",
+            "metadata": {
+              "": ""
+            }
+          },
+          {
+            "name": "Future",
+            "metadata": {
+              "": ""
+            }
+          },
+          {
+            "name": "Next",
+            "metadata": {
+              "": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bugs",
+        "categories": [
+          {
+            "name": "App",
+            "children": []
+          },
+          {
+            "name": "Core",
+            "children": []
+          }
+        ],
+        "statuses": [
+          {
+            "name": "Bugs",
+            "metadata": {
+              "": ""
+            }
+          },
+          {
+            "name": "Closed",
+            "metadata": {
+              "": ""
+            }
+          },
+          {
+            "name": "Investigating",
+            "metadata": {
+              "": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "./Backlog/Complete",
+      "itemGroup": "Backlog",
+      "category": "App",
+      "status": "Complete"
     }
   ],
   "operations": [
-    
   ]
 }
